@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <h1> <span>N</span>oman. </h1>
+                </a>
+                <ul>
+                    <li><a id="hover-home" onclick="clickhome()" href="#header">Home</a></li>
+                    <li><a id="hover-about" onclick="clickabout()" href="#about">About</a></li>
+                    <li><a id="hover-services" onclick="clickservices()" href="#services">Services</a></li>
+                    <li><a id="hover-portfolio" onclick="clickportfolio()" href="#portfolio">Portfolio</a></li>
+                    <li><a id="hover-contact" onclick="clickcontact()" href="#contact">Contact</a></li>
+                </ul>
+            <nav>
+        </div>
+
+        <div id="symbol"></div>
+
+        <div class="headerdiv2">
+            <div class="subdiv1" id="text-container">
+                <p><span style="color: gold;">SOFTWARE </span>ENGINEER</p>
+                <h1>Hi, i'am <span style="color: gold;">Noman</span> from Pakistan. </h1>
+                <br>
+                <h2>I am <span style="color: gold;" class="text"></span> </h2>
+                <br>
+                <p> <span style="font: 0.9em sans-serif;" class="text2"></span> </p>
+            </div>
+            <div class="subdiv2">
+                <img class="img1" src="images/img.png" alt="" width="80%%">
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ---------------------------------About Us------------------------------------ -->
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about-text">
+                <h1>About <span style="color: gold;">Me</span> </h1>
+                <p>"Proficient in HTML, CSS, JavaScript, and PHP, I possess a versatile skill set that allows me to design and develop visually 
+                    appealing websites with seamless functionality. I have a keen eye for detail and a strong understanding of web development principles, 
+                    enabling me to create engaging user experiences and implement robust back-end solutions. With a passion for staying up-to-date with the
+                    latestindustry trends, I continuously enhance my skills to deliver cutting-edge web solutions that exceed client expectations."
+                </p>
+            </div>
+
+            <br>
+            <hr>
+
+            <div class="btn">
+                <div class="about-text2 skill-color" id="skill-colour" onclick="skill1()">
+                    <p>Skills</p>
+                </div>
+
+                <div class="about-text2" id="education-colour" onclick="education1()">
+                    <p>Education</p>
+                </div>
+
+                <div class="about-text2" id="experience-colour" onclick="experience1()">
+                    <p>Experience</p>
+                </div>
+            </div>
+
+            <div class="skills" id="hide-skill">
+                <ul>
+                    <li>Html</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                         molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>Css</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>JavaScript</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>Jquery</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>Bootstrap</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>AOS/Parallex Scroll</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>PHP</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                    <br>
+                    <li>My SQL Server</li>
+                    <br>
+                    <li>C#</li>
+                    <br>
+                    <li>Angular</li>
+                    <br>
+                    <li>.Net Core</li>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat minus
+                        molestiae, porro soluta eveniet dolorum </p> -->
+                </ul>
+            </div>
+            <br>
+
+            <div class="education" id="hide-education">
+                <ul>
+                    <li>Matric</li>
+                    <p>The educators <br> percentage 65% </p>
+                    <br>
+                    <li>Diploma In Electronics</li>
+                    <p>Government Jamia Millia Polytechnic Institute <br> percentage 74% </p>
+                    <br>
+                    <li>Software Development</li>
+                    <p> Aptech ACCP 2.0 <br> DISM is Completed study is Continue <br> 2022 to 2025 </p>
+                    <br>
+                    <li>Graduation in BSCS</li>
+                    <p>Virtual University <br> 2022 to 2026 </p>
+                </ul>
+            </div>
+
+            <div class="Experience" id="hide-experience">
+                <ul>
+                    <li>Fresher</li>
+                    <p>No experience till now</p>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ---------------------------------services------------------------------------ -->
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="services-h1"> <span style="color: gold; font-size: larger;">S</span>ervices</h1>
+            <div class="services-text">
+                <div>
+                    <h2>Custom Web Design </h2>
+                    <p>Create captivating and customized websites. We prioritize user experience, ensuring seamless navigation
+                       and stunning visual branding. Our responsive designs work flawlessly across all devices, delivering results for your
+                       business.</p>
+                </div>
+                <div>
+                    <h2>AOS & Parallex Website Development</h2>
+                    <p>Enhance your website with captivating animations and effects using AOS (Animate On Scroll) and parallax
+                       designs. Our expertise in these advanced techniques creates visually stunning and engaging experiences for your users.</p>
+                </div>
+                <div>
+                    <h2>(SPA) Development </h2>
+                    <p>Optimize user experience with our expertise in developing Single Page Applications (SPA). Enjoy fast loading times and seamless
+                       navigation as content is dynamically loaded, providing a smooth and interactive browsing experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------portfolio------------------------------------ -->
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1> <span style="color: gold; font-size: larger;">P</span>ortfolio</h1>
+            <div class="portfolio-text">
+
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img class="img" src="images/onplus.webp" alt="">
+                    <div class="layer">
+                        <h2>Project 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, enim. Quaerat,
+                            aliquam corrupti ipsa at quod magni mollitia nihil tempora vel recusandae expedita
+                            sed esse impedit repellat fugit voluptatum reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Contact------------------------------------ -->
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> nomanhussain188@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +923162425377</p>
+                    <div class="social-icons">
+                        <a href="# "></a>
+                        <a href="# "></a>
+                        <a href="# "></a>
+                        <a href="# "></a>
+                    </div>
+                    <div class="btn-div">
+                        <a href="#" download class="download-btn">Download Resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Contact------------------------------------ -->
+
+    <div class="copyright">
+        <p>Copyright <span>©</span> Noman. Made by Noman </p>
+    </div>
+</body>
+
+</html>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/573dc52353.js" crossorigin="anonymous"></script>
